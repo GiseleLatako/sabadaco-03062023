@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.link nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 200px;
+}
+
+.containerLinks {
+    /*background-color: blueviolet; */
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.secao1 {
+    display: flex;
+}
+
+.link_orange {
+    color: #FF6E22;
+}
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nosso_maior {
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    align-items: baseline;
+
+}
